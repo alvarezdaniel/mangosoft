@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommLibrary", "CommLibrary\CommLibrary.csproj", "{52FBD63C-2E6E-4BF6-AB65-B342ECCD4253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{EA910519-9661-408E-9BB5-D48B4AC2C79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoSoft.UI", "MangoSoft.UI\MangoSoft.UI.csproj", "{A594EDA7-78D6-404F-9D24-A3D9C674C439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52FBD63C-2E6E-4BF6-AB65-B342ECCD4253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FBD63C-2E6E-4BF6-AB65-B342ECCD4253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FBD63C-2E6E-4BF6-AB65-B342ECCD4253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FBD63C-2E6E-4BF6-AB65-B342ECCD4253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA910519-9661-408E-9BB5-D48B4AC2C79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA910519-9661-408E-9BB5-D48B4AC2C79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA910519-9661-408E-9BB5-D48B4AC2C79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA910519-9661-408E-9BB5-D48B4AC2C79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A594EDA7-78D6-404F-9D24-A3D9C674C439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A594EDA7-78D6-404F-9D24-A3D9C674C439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A594EDA7-78D6-404F-9D24-A3D9C674C439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A594EDA7-78D6-404F-9D24-A3D9C674C439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
