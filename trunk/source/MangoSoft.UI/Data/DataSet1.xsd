@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BaseConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="BaseConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MangoSoft.UI.Properties.Settings.GlobalReference.Default.BaseConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VEventosTableAdapter" GeneratorDataComponentClassName="VEventosTableAdapter" Name="VEventos" UserDataComponentName="VEventosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BaseConnectionString (Settings)" DbObjectName="dbo.VEventos" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DescLugar, DescPersona, NroTagPersona, NroTag, FecEvento FROM dbo.VEventos</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DescLugar" DataSetColumn="DescLugar" />
+              <Mapping SourceColumn="DescPersona" DataSetColumn="DescPersona" />
+              <Mapping SourceColumn="NroTagPersona" DataSetColumn="NroTagPersona" />
+              <Mapping SourceColumn="NroTag" DataSetColumn="NroTag" />
+              <Mapping SourceColumn="FecEvento" DataSetColumn="FecEvento" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VEventos" msprop:Generator_UserTableName="VEventos" msprop:Generator_RowDeletedName="VEventosRowDeleted" msprop:Generator_RowChangedName="VEventosRowChanged" msprop:Generator_RowClassName="VEventosRow" msprop:Generator_RowChangingName="VEventosRowChanging" msprop:Generator_RowEvArgName="VEventosRowChangeEvent" msprop:Generator_RowEvHandlerName="VEventosRowChangeEventHandler" msprop:Generator_TableClassName="VEventosDataTable" msprop:Generator_TableVarName="tableVEventos" msprop:Generator_RowDeletingName="VEventosRowDeleting" msprop:Generator_TablePropName="VEventos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DescLugar" msprop:Generator_UserColumnName="DescLugar" msprop:Generator_ColumnPropNameInRow="DescLugar" msprop:Generator_ColumnVarNameInTable="columnDescLugar" msprop:Generator_ColumnPropNameInTable="DescLugarColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescPersona" msprop:Generator_UserColumnName="DescPersona" msprop:Generator_ColumnPropNameInRow="DescPersona" msprop:Generator_ColumnVarNameInTable="columnDescPersona" msprop:Generator_ColumnPropNameInTable="DescPersonaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NroTagPersona" msprop:Generator_UserColumnName="NroTagPersona" msprop:Generator_ColumnPropNameInRow="NroTagPersona" msprop:Generator_ColumnVarNameInTable="columnNroTagPersona" msprop:Generator_ColumnPropNameInTable="NroTagPersonaColumn" type="xs:int" />
+              <xs:element name="NroTag" msprop:Generator_UserColumnName="NroTag" msprop:Generator_ColumnPropNameInRow="NroTag" msprop:Generator_ColumnVarNameInTable="columnNroTag" msprop:Generator_ColumnPropNameInTable="NroTagColumn" type="xs:int" />
+              <xs:element name="FecEvento" msprop:Generator_UserColumnName="FecEvento" msprop:Generator_ColumnPropNameInRow="FecEvento" msprop:Generator_ColumnVarNameInTable="columnFecEvento" msprop:Generator_ColumnPropNameInTable="FecEventoColumn" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
